@@ -1171,3 +1171,284 @@ Successfully inserted with LastError: reactivemongo.core.commands.LastError: Dat
 2014-09-23 17:40:58,132 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
 Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
 
+2014-09-23 21:44:47,858 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6jj39jo8i - Internal server error, for (GET) [/qiita/tags/scala] ->
+
+play.PlayExceptions$CompilationException: Compilation error[Cannot write an instance of Int to HTTP response. Try to define a Writeable[Int]]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:234) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:229) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:229) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:89) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.4.jar:2.3.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.2.jar:na]
+
+2014-09-23 21:57:33,643 - [ERROR] - from application in New I/O worker #4 
+
+
+! @6jj3bbd3n - Internal server error, for (GET) [/qiita/tags/scala] ->
+
+play.PlayExceptions$CompilationException: Compilation error[No Json serializer found for type reactivemongo.bson.BSONDocument. Try to implement an implicit Writes or Format for this type.]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:234) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:229) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:229) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:89) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.4.jar:2.3.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.2.jar:na]
+
+2014-09-23 22:03:51,460 - [ERROR] - from application in New I/O worker #6 
+
+
+! @6jj3c701g - Internal server error, for (GET) [/qiita/tags/scala] ->
+
+play.PlayExceptions$CompilationException: Compilation error[No Json serializer found for type (String, play.api.libs.json.JsString). Try to implement an implicit Writes or Format for this type.]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:234) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:229) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:229) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:89) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.4.jar:2.3.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.2.jar:na]
+
+2014-09-23 22:05:09,038 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-09-23 22:05:09,056 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-09-23 22:05:09,062 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Failure(akka.pattern.AskTimeoutException: Recipient[Actor[akka://application/user/$b#444643694]] had already been terminated.)]
+
+2014-09-23 22:05:09,156 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2014-09-23 22:05:09,157 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'talentia'! Servers:
+		[localhost:27017]
+
+2014-09-23 22:05:09,158 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-09-23 22:05:10,530 - [INFO] - from play in play-akka.actor.default-dispatcher-34 
+Starting application default Akka system.
+
+2014-09-23 22:06:05,189 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-09-23 22:06:05,204 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-09-23 22:06:05,205 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Failure(akka.pattern.AskTimeoutException: Recipient[Actor[akka://application/user/$b#1702289655]] had already been terminated.)]
+
+2014-09-23 22:06:05,425 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2014-09-23 22:06:05,425 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'talentia'! Servers:
+		[localhost:27017]
+
+2014-09-23 22:06:05,426 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-09-23 22:06:05,683 - [INFO] - from play in play-akka.actor.default-dispatcher-41 
+Starting application default Akka system.
+
+2014-09-23 22:12:36,240 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-09-23 22:12:36,248 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-09-23 22:12:36,250 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Failure(akka.pattern.AskTimeoutException: Recipient[Actor[akka://application/user/$b#1974138499]] had already been terminated.)]
+
+2014-09-23 22:12:36,614 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2014-09-23 22:12:36,614 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'talentia'! Servers:
+		[localhost:27017]
+
+2014-09-23 22:12:36,615 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-09-23 22:12:36,655 - [DEBUG] - from application in play-akka.actor.default-dispatcher-46 
+GET Async: http://localhost:8000/tags/scala/items?page=1&per_page=100
+
+2014-09-23 22:12:37,179 - [INFO] - from play in play-akka.actor.default-dispatcher-46 
+Starting application default Akka system.
+
+2014-09-23 22:17:32,382 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-09-23 22:17:32,395 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-09-23 22:17:32,397 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Failure(akka.pattern.AskTimeoutException: Recipient[Actor[akka://application/user/$b#-1697137102]] had already been terminated.)]
+
+2014-09-23 22:17:32,851 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2014-09-23 22:17:32,852 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'talentia'! Servers:
+		[localhost:27017]
+
+2014-09-23 22:17:32,853 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-09-23 22:17:33,401 - [DEBUG] - from application in play-akka.actor.default-dispatcher-54 
+GET Async: https://qiita.com/api/v1/tags/scala/items?page=1&per_page=100
+
+2014-09-23 22:17:40,781 - [INFO] - from play in play-akka.actor.default-dispatcher-54 
+Starting application default Akka system.
+
+2014-09-23 22:21:36,081 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-09-23 22:21:36,201 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-09-23 22:21:36,202 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Failure(akka.pattern.AskTimeoutException: Recipient[Actor[akka://application/user/$b#-1988980380]] had already been terminated.)]
+
+2014-09-23 22:21:36,661 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2014-09-23 22:21:36,662 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'talentia'! Servers:
+		[localhost:27017]
+
+2014-09-23 22:21:36,664 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-09-23 22:21:36,732 - [DEBUG] - from application in play-akka.actor.default-dispatcher-59 
+GET Async: http://localhost:8000/tags/lisp/items?page=1&per_page=100
+
+2014-09-23 22:21:39,350 - [INFO] - from play in play-akka.actor.default-dispatcher-59 
+Starting application default Akka system.
+
+2014-09-23 22:21:43,315 - [DEBUG] - from application in play-akka.actor.default-dispatcher-68 
+GET Async: http://localhost:8000/tags/lisp/items?page=1&per_page=100
+
+2014-09-23 22:49:29,761 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-09-23 22:49:29,773 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-09-23 22:49:29,774 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Failure(akka.pattern.AskTimeoutException: Recipient[Actor[akka://application/user/$b#-1723711374]] had already been terminated.)]
+
+2014-09-23 22:49:30,193 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2014-09-23 22:49:30,194 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'talentia'! Servers:
+		[localhost:27017]
+
+2014-09-23 22:49:30,195 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-09-23 22:49:30,228 - [DEBUG] - from application in play-akka.actor.default-dispatcher-59 
+GET Async: http://localhost:8000/users/atskimura
+
+2014-09-23 22:49:31,429 - [DEBUG] - from application in play-akka.actor.default-dispatcher-59 
+HTML href: http://qiita.com/atskimura/feed
+
+2014-09-23 22:50:18,092 - [INFO] - from application in pool-4-thread-3 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-09-23 22:50:18,144 - [WARN] - from play in pool-4-thread-3 
+Error stopping plugin
+java.lang.IllegalStateException: Can't get ClosableLazy value after it has been closed
+	at play.core.ClosableLazy.get(ClosableLazy.scala:49) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.api.libs.concurrent.AkkaPlugin.applicationSystem(Akka.scala:71) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.api.libs.concurrent.Akka$$anonfun$system$1.apply(Akka.scala:29) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.api.libs.concurrent.Akka$$anonfun$system$1.apply(Akka.scala:29) ~[play_2.11-2.3.4.jar:2.3.4]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.2.jar:na]
+	at play.api.libs.concurrent.Akka$.system(Akka.scala:29) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.modules.reactivemongo.ReactiveMongoHelper.driver$lzycompute(ReactiveMongoPlugin.scala:124) ~[play2-reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at play.modules.reactivemongo.ReactiveMongoHelper.driver(ReactiveMongoPlugin.scala:124) ~[play2-reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at play.modules.reactivemongo.ReactiveMongoHelper.connection$lzycompute(ReactiveMongoPlugin.scala:127) ~[play2-reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at play.modules.reactivemongo.ReactiveMongoHelper.connection(ReactiveMongoPlugin.scala:125) ~[play2-reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at play.modules.reactivemongo.ReactiveMongoPlugin$$anonfun$onStop$2.apply(ReactiveMongoPlugin.scala:55) ~[play2-reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at play.modules.reactivemongo.ReactiveMongoPlugin$$anonfun$onStop$2.apply(ReactiveMongoPlugin.scala:54) ~[play2-reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.2.jar:na]
+	at play.modules.reactivemongo.ReactiveMongoPlugin.onStop(ReactiveMongoPlugin.scala:54) ~[play2-reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1$$anonfun$apply$mcV$sp$2.apply(Play.scala:108) [play_2.11-2.3.4.jar:2.3.4]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1$$anonfun$apply$mcV$sp$2.apply(Play.scala:107) [play_2.11-2.3.4.jar:2.3.4]
+	at scala.collection.immutable.List.foreach(List.scala:381) [scala-library-2.11.2.jar:na]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1.apply$mcV$sp(Play.scala:107) [play_2.11-2.3.4.jar:2.3.4]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1.apply(Play.scala:107) [play_2.11-2.3.4.jar:2.3.4]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1.apply(Play.scala:107) [play_2.11-2.3.4.jar:2.3.4]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:21) [play_2.11-2.3.4.jar:2.3.4]
+	at play.api.Play$$anonfun$stop$1.apply(Play.scala:106) [play_2.11-2.3.4.jar:2.3.4]
+	at play.api.Play$$anonfun$stop$1.apply(Play.scala:105) [play_2.11-2.3.4.jar:2.3.4]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.2.jar:na]
+	at play.api.Play$.stop(Play.scala:105) [play_2.11-2.3.4.jar:2.3.4]
+	at play.core.server.NettyServer.stop(NettyServer.scala:158) [play_2.11-2.3.4.jar:2.3.4]
+	at play.PlayRun$$anon$3.close(PlayRun.scala:332) [sbt-plugin-2.3.4.jar:2.3.4]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.apply(PlayRun.scala:150) [sbt-plugin-2.3.4.jar:2.3.4]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3.apply(PlayRun.scala:95) [sbt-plugin-2.3.4.jar:2.3.4]
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47) [scala-library.jar:0.13.5]
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:42) [collections-0.13.5.jar:0.13.5]
+	at sbt.std.Transform$$anon$4.work(System.scala:64) [task-system-0.13.5.jar:0.13.5]
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237) [tasks-0.13.5.jar:0.13.5]
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237) [tasks-0.13.5.jar:0.13.5]
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) [control-0.13.5.jar:0.13.5]
+	at sbt.Execute.work(Execute.scala:244) [tasks-0.13.5.jar:0.13.5]
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237) [tasks-0.13.5.jar:0.13.5]
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237) [tasks-0.13.5.jar:0.13.5]
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:160) [tasks-0.13.5.jar:0.13.5]
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:30) [tasks-0.13.5.jar:0.13.5]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_51]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_51]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_51]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_51]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_51]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_51]
+

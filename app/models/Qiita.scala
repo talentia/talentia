@@ -1,36 +1,45 @@
 package models
 
 import org.joda.time.{DateTimeZone, DateTime}
+import org.jsoup.Jsoup
 import play.api.{Play, Logger}
 import play.api.libs.concurrent.Execution.Implicits.defaultContext
 import play.api.libs.json._
 import play.modules.reactivemongo.ReactiveMongoPlugin
 import play.modules.reactivemongo.json.collection.JSONCollection
 import play.api.Play.current
+import reactivemongo.core.commands.LastError
 
 import scala.concurrent.Future
-import scala.util.{Failure, Success}
 
 /**
- * Created by scova0731 on 9/23/14.
+ *
+ * http://qiita.com/docs/api
  */
 object Qiita {
 
   object config {
 
     lazy val rootUrl = Play.current.configuration
-      .getString("api.qiita.root").getOrElse("https://qiita.com/api/v1")
+      .getString("api.qiita.rootApi").getOrElse("https://qiita.com/api/v1")
+    lazy val rootHtmlUrl = Play.current.configuration
+      .getString("api.qiita.rootHtml").getOrElse("https://qiita.com")
 
-    def allTagsUrl() = addPagenation(s"$rootUrl/tags", perPage = 100)
-    def tagItemsUrl(urlName: String) = s"$rootUrl/tags/$urlName/items"
-    def userUrl(urlName: String) = s"$rootUrl/users/$urlName"
+    def allTagsUrl() =
+      addPagenation(s"$rootUrl/tags", perPage = 100)
+    def tagItemsUrl(urlName: String) =
+      addPagenation(s"$rootUrl/tags/$urlName/items", perPage = 100)
+    def userUrl(urlName: String) =
+      s"$rootUrl/users/$urlName"
+    def userhtmlUrl(urlName: String) =
+      s"$rootHtmlUrl/$urlName"
 
 
     /**
      * Add pagenation parameters
      * @param url
-     * @param page 取得件数．最大100，デフォルト20
-     * @param perPage 何ページ目を取得するか(1-origin)．最大50，デフォルト1
+     * @param page 何ページ目を取得するか(1-origin)．最大50，デフォルト1
+     * @param perPage 取得件数．最大100，デフォルト20
      * @return
      */
     def addPagenation(url:String, page:Int = 1, perPage:Int = 20): String =
@@ -65,11 +74,14 @@ object Qiita {
     def insertion() = json.value.foreach{ jsValue =>
       val added =
         jsValue.as[JsObject] + ("stored_at" -> dateTime.writes(new DateTime()))
+      val urlName = jsValue.\("url_name").as[String]
 
+      // Should remove one by one ?
+      //qiitaTags.remove(BSONDocument("url_name" -> urlName)).map { lastError =>
       qiitaTags.insert(added).map { lastError =>
-        Logger.debug(s"Successfully inserted with LastError: $lastError")
-
+        logLastError(lastError)
       }}
+      //}
 
     dropping().map{x =>
       insertion()
@@ -80,7 +92,35 @@ object Qiita {
 
   def upsertTagItems(tagName: String, json: JsArray): Future[Either[String, JsArray]] = {
 
+    json.value.foreach{ jsValue =>
+
+      val added = jsValue.as[JsObject] +
+        ("stored_at" -> dateTime.writes(new DateTime())) +
+        ("tag_name" -> JsString(tagName))
+      val uuid = jsValue.\("uuid").as[String]
+
+      qiitaTagItems.remove(Json.obj("uuid" -> JsString(uuid))).map { lastError =>
+        logLastError(lastError)
+        qiitaTagItems.insert(added).map { lastError =>
+          logLastError(lastError)
+      }}
+    }
+
+    Future(Right(json))
+  }
 
 
+  def getAndAnalyzeUserHtml(userId: String, html: String):String = {
+    val doc = Jsoup.parse(html)
+
+    val href = doc.select("#main link").attr("href")
+    Logger.debug(s"HTML href: $href")
+
+    href
+  }
+
+  private def logLastError(lastError: LastError): Unit = {
+    if (!lastError.ok)
+      Logger.debug(s"LastError: $lastError")
   }
 }

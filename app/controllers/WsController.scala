@@ -1,6 +1,7 @@
 package controllers
 
 import models.Qiita
+import play.api.Logger
 import play.api.libs.concurrent.Execution.Implicits
 import play.api.libs.json.{JsArray, Json, JsResult}
 import play.api.libs.ws.{WSResponse, WSRequestHolder, WS}
@@ -44,27 +45,42 @@ object WsController extends Controller {
 
 
   def listQiitaTags() = Action.async {
-    val holder: WSRequestHolder = WS.url(Qiita.config.allTagsUrl())
-    val futureResponse: Future[WSResponse] = holder.get()
+    asyncGet(Qiita.config.allTagsUrl())
+      .flatMap(response => {
+        val list = response.json.as[JsArray]
 
-    futureResponse.flatMap(response => {
-      val list = response.json.as[JsArray]
-
-      Qiita.replaceTagsJson(list).map(either =>
-        either.fold(
-          error => BadRequest(error),
-          json => Ok(json)
-        )
-        )
-    })
+        Qiita.replaceTagsJson(list).map(either =>
+          either.fold(
+            error => BadRequest(error),
+            json => Ok(json)
+          )
+          )
+      })
   }
 
   
   def listQiitaTagItems(tagName: String) = Action.async {
-    val holder = WS.url(Qiita.config.tagItemsUrl(tagName))
+      asyncGet(Qiita.config.tagItemsUrl(tagName))
+        .flatMap(req => {
+          Qiita.upsertTagItems(tagName, req.json.as[JsArray]).map(either =>
+            either.fold(
+              error => BadRequest(error),
+              json => Ok(json)
+            )
+          )
+        })
+  }
 
+  def getAndAnalyzeUserHtml(userName: String) = Action.async {
+    asyncGet(Qiita.config.userhtmlUrl(userName))
+      .map(req => {
+        Ok(Qiita.getAndAnalyzeUserHtml(userName, req.body))    })
 
-    Future(Ok(1))
+  }
+
+  private def asyncGet(url: String): Future[WSResponse] = {
+    Logger.debug(s"GET Async: $url")
+    WS.url(url).get()
   }
 
 
