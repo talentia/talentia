@@ -1,0 +1,1173 @@
+2014-09-23 15:29:49,861 - [INFO] - from play in pool-4-thread-3 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2014-09-23 15:30:14,160 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6jj1cf73f - Internal server error, for (GET) [/qiita/tags] ->
+
+play.PlayExceptions$CompilationException: Compilation error[object ws is not a member of package play.api]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:234) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:229) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:229) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:89) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.4.jar:2.3.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.2.jar:na]
+
+2014-09-23 15:30:14,470 - [WARN] - from play in New I/O worker #1 
+No application found at invoker init
+
+2014-09-23 15:30:53,920 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6jj1che14 - Internal server error, for (GET) [/qiita/tags] ->
+
+play.PlayExceptions$CompilationException: Compilation error[No unapply function found]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:234) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:229) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:229) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:89) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.4.jar:2.3.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.2.jar:na]
+
+2014-09-23 15:33:41,728 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6jj1d1278 - Internal server error, for (GET) [/qiita/tags] ->
+
+play.PlayExceptions$CompilationException: Compilation error[Cannot write an instance of play.api.libs.ws.WSResponse to HTTP response. Try to define a Writeable[play.api.libs.ws.WSResponse]]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:234) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:229) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:229) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:89) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.4.jar:2.3.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.2.jar:na]
+
+2014-09-23 15:34:28,644 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2014-09-23 15:34:28,663 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'talentia'! Servers:
+		[localhost:27017]
+
+2014-09-23 15:34:28,815 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-09-23 15:41:17,443 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6jj1e10ad - Internal server error, for (GET) [/qiita/tags] ->
+
+play.PlayExceptions$CompilationException: Compilation error[Cannot write an instance of scala.concurrent.Future[Either[String,play.api.libs.json.JsValue]] to HTTP response. Try to define a Writeable[scala.concurrent.Future[Either[String,play.api.libs.json.JsValue]]]]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:234) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:229) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:229) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:89) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.4.jar:2.3.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.2.jar:na]
+
+2014-09-23 15:41:42,285 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6jj1e2b47 - Internal server error, for (GET) [/qiita/tags] ->
+
+play.PlayExceptions$CompilationException: Compilation error[Cannot write an instance of scala.concurrent.Future[Either[String,play.api.libs.json.JsValue]] to HTTP response. Try to define a Writeable[scala.concurrent.Future[Either[String,play.api.libs.json.JsValue]]]]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:234) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:229) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:229) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:89) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.4.jar:2.3.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.2.jar:na]
+
+2014-09-23 15:41:52,248 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6jj1e2pnd - Internal server error, for (GET) [/qiita/tags] ->
+
+play.PlayExceptions$CompilationException: Compilation error[Cannot write an instance of scala.concurrent.Future[Either[String,play.api.libs.json.JsValue]] to HTTP response. Try to define a Writeable[scala.concurrent.Future[Either[String,play.api.libs.json.JsValue]]]]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:234) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:229) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:229) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:89) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.4.jar:2.3.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.2.jar:na]
+
+2014-09-23 15:47:01,622 - [ERROR] - from application in New I/O worker #3 
+
+
+! @6jj1ekfe9 - Internal server error, for (GET) [/qiita/tags] ->
+
+play.PlayExceptions$CompilationException: Compilation error[Cannot find an implicit ExecutionContext. You might pass
+an (implicit ec: ExecutionContext) parameter to your method
+or import scala.concurrent.ExecutionContext.Implicits.global.]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:234) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:229) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:229) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:89) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.4.jar:2.3.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.2.jar:na]
+
+2014-09-23 15:47:26,054 - [ERROR] - from application in New I/O worker #3 
+
+
+! @6jj1elpi3 - Internal server error, for (GET) [/qiita/tags] ->
+
+play.PlayExceptions$CompilationException: Compilation error[Cannot find an implicit ExecutionContext. You might pass
+an (implicit ec: ExecutionContext) parameter to your method
+or import scala.concurrent.ExecutionContext.Implicits.global.]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:234) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:229) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:229) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:89) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.4.jar:2.3.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.2.jar:na]
+
+2014-09-23 15:47:39,469 - [ERROR] - from application in New I/O worker #3 
+
+
+! @6jj1emje3 - Internal server error, for (GET) [/qiita/tags] ->
+
+play.PlayExceptions$CompilationException: Compilation error[Cannot find an implicit ExecutionContext. You might pass
+an (implicit ec: ExecutionContext) parameter to your method
+or import scala.concurrent.ExecutionContext.Implicits.global.]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:234) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:229) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:229) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:89) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.2.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:89) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.4.jar:2.3.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.2.jar:na]
+
+2014-09-23 15:48:44,461 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-09-23 15:48:44,470 - [WARN] - from play in play-internal-execution-context-1 
+Error stopping plugin
+java.lang.IllegalStateException: Can't get ClosableLazy value after it has been closed
+	at play.core.ClosableLazy.get(ClosableLazy.scala:49) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.api.libs.concurrent.AkkaPlugin.applicationSystem(Akka.scala:71) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.api.libs.concurrent.Akka$$anonfun$system$1.apply(Akka.scala:29) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.api.libs.concurrent.Akka$$anonfun$system$1.apply(Akka.scala:29) ~[play_2.11-2.3.4.jar:2.3.4]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.2.jar:na]
+	at play.api.libs.concurrent.Akka$.system(Akka.scala:29) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.modules.reactivemongo.ReactiveMongoHelper.driver$lzycompute(ReactiveMongoPlugin.scala:124) ~[play2-reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at play.modules.reactivemongo.ReactiveMongoHelper.driver(ReactiveMongoPlugin.scala:124) ~[play2-reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at play.modules.reactivemongo.ReactiveMongoHelper.connection$lzycompute(ReactiveMongoPlugin.scala:127) ~[play2-reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at play.modules.reactivemongo.ReactiveMongoHelper.connection(ReactiveMongoPlugin.scala:125) ~[play2-reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at play.modules.reactivemongo.ReactiveMongoPlugin$$anonfun$onStop$2.apply(ReactiveMongoPlugin.scala:55) ~[play2-reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at play.modules.reactivemongo.ReactiveMongoPlugin$$anonfun$onStop$2.apply(ReactiveMongoPlugin.scala:54) ~[play2-reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.2.jar:na]
+	at play.modules.reactivemongo.ReactiveMongoPlugin.onStop(ReactiveMongoPlugin.scala:54) ~[play2-reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1$$anonfun$apply$mcV$sp$2.apply(Play.scala:108) [play_2.11-2.3.4.jar:2.3.4]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1$$anonfun$apply$mcV$sp$2.apply(Play.scala:107) [play_2.11-2.3.4.jar:2.3.4]
+	at scala.collection.immutable.List.foreach(List.scala:381) [scala-library-2.11.2.jar:na]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1.apply$mcV$sp(Play.scala:107) [play_2.11-2.3.4.jar:2.3.4]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1.apply(Play.scala:107) [play_2.11-2.3.4.jar:2.3.4]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1.apply(Play.scala:107) [play_2.11-2.3.4.jar:2.3.4]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:21) [play_2.11-2.3.4.jar:2.3.4]
+	at play.api.Play$$anonfun$stop$1.apply(Play.scala:106) [play_2.11-2.3.4.jar:2.3.4]
+	at play.api.Play$$anonfun$stop$1.apply(Play.scala:105) [play_2.11-2.3.4.jar:2.3.4]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.2.jar:na]
+	at play.api.Play$.stop(Play.scala:105) [play_2.11-2.3.4.jar:2.3.4]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:142) [play_2.11-2.3.4.jar:2.3.4]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:130) [play_2.11-2.3.4.jar:2.3.4]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.2.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:130) [play_2.11-2.3.4.jar:2.3.4]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:128) [play_2.11-2.3.4.jar:2.3.4]
+	at scala.util.Success.flatMap(Try.scala:230) [scala-library-2.11.2.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:128) [play_2.11-2.3.4.jar:2.3.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) [play_2.11-2.3.4.jar:2.3.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library-2.11.2.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) [scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.2.jar:na]
+
+2014-09-23 15:48:44,852 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2014-09-23 15:48:44,853 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'talentia'! Servers:
+		[localhost:27017]
+
+2014-09-23 15:48:44,854 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-09-23 15:48:45,687 - [INFO] - from play in play-akka.actor.default-dispatcher-3 
+Starting application default Akka system.
+
+2014-09-23 15:48:45,969 - [ERROR] - from application in play-akka.actor.default-dispatcher-3 
+
+
+! @6jj1f0dml - Internal server error, for (GET) [/qiita/tags] ->
+
+play.api.Application$$anon$1: Execution exception[[JsResultException: JsResultException(errors:List((,List(ValidationError(error.expected.jsobject,WrappedArray())))))]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.4.jar:2.3.4]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.4.jar:2.3.4]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:205) [play_2.11-2.3.4.jar:2.3.4]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:202) [play_2.11-2.3.4.jar:2.3.4]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.2.jar:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:215) [scala-library-2.11.2.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.2.jar:na]
+	at scala.util.Failure.recover(Try.scala:215) [scala-library-2.11.2.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.2.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.2.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.2.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.4.jar:2.3.4]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.2.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.2.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.2.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.2.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.2.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.2.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.2.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [scala-library-2.11.2.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.2.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.2.jar:na]
+Caused by: play.api.libs.json.JsResultException: JsResultException(errors:List((,List(ValidationError(error.expected.jsobject,WrappedArray())))))
+	at play.api.libs.json.JsValue$$anonfun$2.apply(JsValue.scala:67) ~[play-json_2.11-2.3.4.jar:2.3.4]
+	at play.api.libs.json.JsValue$$anonfun$2.apply(JsValue.scala:67) ~[play-json_2.11-2.3.4.jar:2.3.4]
+	at play.api.libs.json.JsResult$class.fold(JsResult.scala:77) ~[play-json_2.11-2.3.4.jar:2.3.4]
+	at play.api.libs.json.JsError.fold(JsResult.scala:13) ~[play-json_2.11-2.3.4.jar:2.3.4]
+	at play.api.libs.json.JsValue$class.as(JsValue.scala:65) ~[play-json_2.11-2.3.4.jar:2.3.4]
+	at play.api.libs.json.JsArray.as(JsValue.scala:125) ~[play-json_2.11-2.3.4.jar:2.3.4]
+	at play.modules.reactivemongo.json.collection.JSONGenericHandlers$BSONStructureWriter.write(jsoncollection.scala:55) ~[play2-reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at play.modules.reactivemongo.json.collection.JSONGenericHandlers$BSONStructureWriter.write(jsoncollection.scala:54) ~[play2-reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at reactivemongo.api.collections.GenericHandlers$GenericBufferWriter.write(genericcollection.scala:61) ~[reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at reactivemongo.api.collections.GenericCollection$class.reactivemongo$api$collections$GenericCollection$$writeDoc(genericcollection.scala:97) ~[reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at reactivemongo.api.collections.GenericCollection$$anonfun$insert$1.apply(genericcollection.scala:151) ~[reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at reactivemongo.api.collections.GenericCollection$$anonfun$insert$1.apply(genericcollection.scala:149) ~[reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.2.jar:na]
+	at reactivemongo.api.collections.GenericCollection$class.watchFailure(genericcollection.scala:99) ~[reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at play.modules.reactivemongo.json.collection.JSONCollection.watchFailure(jsoncollection.scala:70) ~[play2-reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at reactivemongo.api.collections.GenericCollection$class.insert(genericcollection.scala:149) ~[reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at play.modules.reactivemongo.json.collection.JSONCollection.insert(jsoncollection.scala:70) ~[play2-reactivemongo_2.11-0.10.5.akka23-SNAPSHOT.jar:0.10.5.akka23-SNAPSHOT]
+	at models.Qiita$.saveTagsJson(Qiita.scala:22) ~[na:na]
+	at controllers.WsController$$anonfun$listQiitaTags$1$$anonfun$apply$1.apply(WsController.scala:51) ~[na:na]
+	at controllers.WsController$$anonfun$listQiitaTags$1$$anonfun$apply$1.apply(WsController.scala:50) ~[na:na]
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:251) ~[scala-library-2.11.2.jar:na]
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:249) ~[scala-library-2.11.2.jar:na]
+	... 13 common frames omitted
+
+2014-09-23 15:54:26,780 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-09-23 15:54:26,826 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-09-23 15:54:26,832 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Failure(akka.pattern.AskTimeoutException: Recipient[Actor[akka://application/user/$b#-317387146]] had already been terminated.)]
+
+2014-09-23 15:54:27,202 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2014-09-23 15:54:27,203 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'talentia'! Servers:
+		[localhost:27017]
+
+2014-09-23 15:54:27,204 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-09-23 15:54:29,425 - [INFO] - from play in play-akka.actor.default-dispatcher-6 
+Starting application default Akka system.
+
+2014-09-23 15:54:30,829 - [DEBUG] - from application in play-akka.actor.default-dispatcher-7 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,831 - [DEBUG] - from application in play-akka.actor.default-dispatcher-6 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,831 - [DEBUG] - from application in play-akka.actor.default-dispatcher-9 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,831 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,831 - [DEBUG] - from application in play-akka.actor.default-dispatcher-11 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,831 - [DEBUG] - from application in play-akka.actor.default-dispatcher-12 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,832 - [DEBUG] - from application in play-akka.actor.default-dispatcher-10 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,898 - [DEBUG] - from application in play-akka.actor.default-dispatcher-10 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,898 - [DEBUG] - from application in play-akka.actor.default-dispatcher-11 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,898 - [DEBUG] - from application in play-akka.actor.default-dispatcher-12 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,899 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,900 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,901 - [DEBUG] - from application in play-akka.actor.default-dispatcher-10 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,902 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,902 - [DEBUG] - from application in play-akka.actor.default-dispatcher-10 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,903 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,903 - [DEBUG] - from application in play-akka.actor.default-dispatcher-10 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,903 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,903 - [DEBUG] - from application in play-akka.actor.default-dispatcher-12 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:54:30,904 - [DEBUG] - from application in play-akka.actor.default-dispatcher-13 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,683 - [DEBUG] - from application in play-akka.actor.default-dispatcher-14 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,685 - [DEBUG] - from application in play-akka.actor.default-dispatcher-15 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,685 - [DEBUG] - from application in play-akka.actor.default-dispatcher-14 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,687 - [DEBUG] - from application in play-akka.actor.default-dispatcher-16 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,688 - [DEBUG] - from application in play-akka.actor.default-dispatcher-16 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,689 - [DEBUG] - from application in play-akka.actor.default-dispatcher-16 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,690 - [DEBUG] - from application in play-akka.actor.default-dispatcher-16 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,693 - [DEBUG] - from application in play-akka.actor.default-dispatcher-14 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,694 - [DEBUG] - from application in play-akka.actor.default-dispatcher-14 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,694 - [DEBUG] - from application in play-akka.actor.default-dispatcher-16 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,695 - [DEBUG] - from application in play-akka.actor.default-dispatcher-16 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,706 - [DEBUG] - from application in play-akka.actor.default-dispatcher-14 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,706 - [DEBUG] - from application in play-akka.actor.default-dispatcher-15 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,707 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,708 - [DEBUG] - from application in play-akka.actor.default-dispatcher-14 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,708 - [DEBUG] - from application in play-akka.actor.default-dispatcher-16 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,709 - [DEBUG] - from application in play-akka.actor.default-dispatcher-15 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,710 - [DEBUG] - from application in play-akka.actor.default-dispatcher-20 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,711 - [DEBUG] - from application in play-akka.actor.default-dispatcher-11 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 15:55:27,711 - [DEBUG] - from application in play-akka.actor.default-dispatcher-15 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:43,763 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-09-23 17:30:43,775 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-09-23 17:30:43,776 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Failure(akka.pattern.AskTimeoutException: Recipient[Actor[akka://application/user/$b#-1328023169]] had already been terminated.)]
+
+2014-09-23 17:30:44,186 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2014-09-23 17:30:44,187 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'talentia'! Servers:
+		[localhost:27017]
+
+2014-09-23 17:30:44,188 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-09-23 17:30:45,137 - [INFO] - from play in play-akka.actor.default-dispatcher-17 
+Starting application default Akka system.
+
+2014-09-23 17:30:45,862 - [DEBUG] - from application in play-akka.actor.default-dispatcher-21 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,886 - [DEBUG] - from application in play-akka.actor.default-dispatcher-21 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,886 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,887 - [DEBUG] - from application in play-akka.actor.default-dispatcher-22 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,887 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,888 - [DEBUG] - from application in play-akka.actor.default-dispatcher-22 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,888 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,888 - [DEBUG] - from application in play-akka.actor.default-dispatcher-22 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,889 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,889 - [DEBUG] - from application in play-akka.actor.default-dispatcher-22 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,889 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,890 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,890 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,891 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,892 - [DEBUG] - from application in play-akka.actor.default-dispatcher-24 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,892 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,893 - [DEBUG] - from application in play-akka.actor.default-dispatcher-22 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,893 - [DEBUG] - from application in play-akka.actor.default-dispatcher-27 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,894 - [DEBUG] - from application in play-akka.actor.default-dispatcher-22 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,894 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,894 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,895 - [DEBUG] - from application in play-akka.actor.default-dispatcher-26 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,895 - [DEBUG] - from application in play-akka.actor.default-dispatcher-26 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,896 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,896 - [DEBUG] - from application in play-akka.actor.default-dispatcher-26 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,896 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,897 - [DEBUG] - from application in play-akka.actor.default-dispatcher-26 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,897 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,897 - [DEBUG] - from application in play-akka.actor.default-dispatcher-26 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,897 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,897 - [DEBUG] - from application in play-akka.actor.default-dispatcher-26 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,898 - [DEBUG] - from application in play-akka.actor.default-dispatcher-26 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,903 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,912 - [DEBUG] - from application in play-akka.actor.default-dispatcher-21 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,898 - [DEBUG] - from application in play-akka.actor.default-dispatcher-22 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,931 - [DEBUG] - from application in play-akka.actor.default-dispatcher-26 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,932 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,932 - [DEBUG] - from application in play-akka.actor.default-dispatcher-22 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,899 - [DEBUG] - from application in play-akka.actor.default-dispatcher-25 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,933 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,899 - [DEBUG] - from application in play-akka.actor.default-dispatcher-24 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,933 - [DEBUG] - from application in play-akka.actor.default-dispatcher-25 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,933 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,933 - [DEBUG] - from application in play-akka.actor.default-dispatcher-24 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,933 - [DEBUG] - from application in play-akka.actor.default-dispatcher-25 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,933 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,901 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,903 - [DEBUG] - from application in play-akka.actor.default-dispatcher-27 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,933 - [DEBUG] - from application in play-akka.actor.default-dispatcher-26 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,934 - [DEBUG] - from application in play-akka.actor.default-dispatcher-24 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,934 - [DEBUG] - from application in play-akka.actor.default-dispatcher-27 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,934 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,935 - [DEBUG] - from application in play-akka.actor.default-dispatcher-24 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,935 - [DEBUG] - from application in play-akka.actor.default-dispatcher-27 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,935 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,935 - [DEBUG] - from application in play-akka.actor.default-dispatcher-24 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,935 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,935 - [DEBUG] - from application in play-akka.actor.default-dispatcher-27 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,933 - [DEBUG] - from application in play-akka.actor.default-dispatcher-22 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,936 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,936 - [DEBUG] - from application in play-akka.actor.default-dispatcher-27 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,936 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,936 - [DEBUG] - from application in play-akka.actor.default-dispatcher-27 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,936 - [DEBUG] - from application in play-akka.actor.default-dispatcher-22 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,936 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,937 - [DEBUG] - from application in play-akka.actor.default-dispatcher-22 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,937 - [DEBUG] - from application in play-akka.actor.default-dispatcher-27 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,937 - [DEBUG] - from application in play-akka.actor.default-dispatcher-22 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,934 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,934 - [DEBUG] - from application in play-akka.actor.default-dispatcher-25 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,937 - [DEBUG] - from application in play-akka.actor.default-dispatcher-27 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,938 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,938 - [DEBUG] - from application in play-akka.actor.default-dispatcher-25 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,938 - [DEBUG] - from application in play-akka.actor.default-dispatcher-27 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,938 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,938 - [DEBUG] - from application in play-akka.actor.default-dispatcher-25 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,938 - [DEBUG] - from application in play-akka.actor.default-dispatcher-27 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,937 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,935 - [DEBUG] - from application in play-akka.actor.default-dispatcher-24 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,934 - [DEBUG] - from application in play-akka.actor.default-dispatcher-26 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,939 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,939 - [DEBUG] - from application in play-akka.actor.default-dispatcher-24 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,939 - [DEBUG] - from application in play-akka.actor.default-dispatcher-26 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,940 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,940 - [DEBUG] - from application in play-akka.actor.default-dispatcher-26 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,937 - [DEBUG] - from application in play-akka.actor.default-dispatcher-22 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,940 - [DEBUG] - from application in play-akka.actor.default-dispatcher-24 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,939 - [DEBUG] - from application in play-akka.actor.default-dispatcher-27 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,939 - [DEBUG] - from application in play-akka.actor.default-dispatcher-25 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,940 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,940 - [DEBUG] - from application in play-akka.actor.default-dispatcher-22 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,941 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,941 - [DEBUG] - from application in play-akka.actor.default-dispatcher-25 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,939 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,940 - [DEBUG] - from application in play-akka.actor.default-dispatcher-26 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,940 - [DEBUG] - from application in play-akka.actor.default-dispatcher-24 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,941 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,941 - [DEBUG] - from application in play-akka.actor.default-dispatcher-27 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,941 - [DEBUG] - from application in play-akka.actor.default-dispatcher-22 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:30:45,942 - [DEBUG] - from application in play-akka.actor.default-dispatcher-21 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:54,682 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-09-23 17:40:54,692 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-09-23 17:40:54,693 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Failure(akka.pattern.AskTimeoutException: Recipient[Actor[akka://application/user/$b#7939689]] had already been terminated.)]
+
+2014-09-23 17:40:55,065 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2014-09-23 17:40:55,065 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'talentia'! Servers:
+		[localhost:27017]
+
+2014-09-23 17:40:55,066 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-09-23 17:40:57,226 - [INFO] - from play in play-akka.actor.default-dispatcher-25 
+Starting application default Akka system.
+
+2014-09-23 17:40:58,105 - [DEBUG] - from application in play-akka.actor.default-dispatcher-33 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,105 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,106 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,106 - [DEBUG] - from application in play-akka.actor.default-dispatcher-33 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,106 - [DEBUG] - from application in play-akka.actor.default-dispatcher-33 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,107 - [DEBUG] - from application in play-akka.actor.default-dispatcher-32 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,107 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,105 - [DEBUG] - from application in play-akka.actor.default-dispatcher-31 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,107 - [DEBUG] - from application in play-akka.actor.default-dispatcher-32 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,107 - [DEBUG] - from application in play-akka.actor.default-dispatcher-31 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,107 - [DEBUG] - from application in play-akka.actor.default-dispatcher-32 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,108 - [DEBUG] - from application in play-akka.actor.default-dispatcher-31 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,108 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,108 - [DEBUG] - from application in play-akka.actor.default-dispatcher-30 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,105 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,109 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,108 - [DEBUG] - from application in play-akka.actor.default-dispatcher-31 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,108 - [DEBUG] - from application in play-akka.actor.default-dispatcher-32 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,107 - [DEBUG] - from application in play-akka.actor.default-dispatcher-33 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,105 - [DEBUG] - from application in play-akka.actor.default-dispatcher-28 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,109 - [DEBUG] - from application in play-akka.actor.default-dispatcher-30 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,109 - [DEBUG] - from application in play-akka.actor.default-dispatcher-25 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,109 - [DEBUG] - from application in play-akka.actor.default-dispatcher-33 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,110 - [DEBUG] - from application in play-akka.actor.default-dispatcher-32 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,114 - [DEBUG] - from application in play-akka.actor.default-dispatcher-33 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,110 - [DEBUG] - from application in play-akka.actor.default-dispatcher-28 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,114 - [DEBUG] - from application in play-akka.actor.default-dispatcher-33 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,112 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,114 - [DEBUG] - from application in play-akka.actor.default-dispatcher-28 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,111 - [DEBUG] - from application in play-akka.actor.default-dispatcher-30 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,116 - [DEBUG] - from application in play-akka.actor.default-dispatcher-28 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,115 - [DEBUG] - from application in play-akka.actor.default-dispatcher-33 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,117 - [DEBUG] - from application in play-akka.actor.default-dispatcher-28 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,112 - [DEBUG] - from application in play-akka.actor.default-dispatcher-31 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,118 - [DEBUG] - from application in play-akka.actor.default-dispatcher-28 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,118 - [DEBUG] - from application in play-akka.actor.default-dispatcher-31 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,118 - [DEBUG] - from application in play-akka.actor.default-dispatcher-28 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,118 - [DEBUG] - from application in play-akka.actor.default-dispatcher-31 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,118 - [DEBUG] - from application in play-akka.actor.default-dispatcher-28 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,119 - [DEBUG] - from application in play-akka.actor.default-dispatcher-31 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,119 - [DEBUG] - from application in play-akka.actor.default-dispatcher-28 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,112 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,119 - [DEBUG] - from application in play-akka.actor.default-dispatcher-31 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,119 - [DEBUG] - from application in play-akka.actor.default-dispatcher-28 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,117 - [DEBUG] - from application in play-akka.actor.default-dispatcher-33 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,116 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,116 - [DEBUG] - from application in play-akka.actor.default-dispatcher-30 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,114 - [DEBUG] - from application in play-akka.actor.default-dispatcher-32 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,120 - [DEBUG] - from application in play-akka.actor.default-dispatcher-31 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,120 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,121 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,122 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,123 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,124 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,124 - [DEBUG] - from application in play-akka.actor.default-dispatcher-31 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,124 - [DEBUG] - from application in play-akka.actor.default-dispatcher-25 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,125 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,125 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,125 - [DEBUG] - from application in play-akka.actor.default-dispatcher-31 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,125 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,130 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,130 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,131 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,131 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,132 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,129 - [DEBUG] - from application in play-akka.actor.default-dispatcher-25 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,128 - [DEBUG] - from application in play-akka.actor.default-dispatcher-30 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,127 - [DEBUG] - from application in play-akka.actor.default-dispatcher-33 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,127 - [DEBUG] - from application in play-akka.actor.default-dispatcher-28 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,127 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,144 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,144 - [DEBUG] - from application in play-akka.actor.default-dispatcher-28 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,143 - [DEBUG] - from application in play-akka.actor.default-dispatcher-30 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,145 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,185 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,186 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,187 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,188 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,189 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,189 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,189 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,190 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,190 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,191 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,191 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,191 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,192 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,192 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,192 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,193 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,200 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,201 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,201 - [DEBUG] - from application in play-akka.actor.default-dispatcher-34 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,126 - [DEBUG] - from application in play-akka.actor.default-dispatcher-31 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,126 - [DEBUG] - from application in play-akka.actor.default-dispatcher-32 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,145 - [DEBUG] - from application in play-akka.actor.default-dispatcher-30 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,143 - [DEBUG] - from application in play-akka.actor.default-dispatcher-33 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,145 - [DEBUG] - from application in play-akka.actor.default-dispatcher-28 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,132 - [DEBUG] - from application in play-akka.actor.default-dispatcher-25 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2014-09-23 17:40:58,132 - [DEBUG] - from application in play-akka.actor.default-dispatcher-29 
+Successfully inserted with LastError: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
